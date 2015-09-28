@@ -1,0 +1,219 @@
+body {
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+    text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+	color: #000;
+}
+
+.jumbotron{
+	height: 60vh;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#dataJumbo{
+	background-image: url('./resources/CV-banner.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    top: 0px;
+	color: #fff;
+	margin-bottom: 0px;
+	max-width: 100%;
+}
+
+#dataJumbo h1{
+	padding: auto;
+	color: #fff;
+}
+
+#data{
+	min-height: 50vh;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #6F2D91;
+}
+
+#data ul{
+	list-style: none;
+}
+
+.fa{
+	padding-right: 1em;
+}
+
+#quote{
+	margin-top: 2em;
+	text-align: center;
+}
+
+#profilePic .thumbnail{
+	background: none;
+	border-style: none;
+}
+
+#profilePic img {
+	border-radius: 100%;
+}
+
+#expJumbo{
+	background-image: url('./resources/handscomputer-jumbo.jpg');
+	background-size: 100% 100%;
+	top: 0px;
+	color: #000;
+	opacity: 0.85;
+	margin-bottom: 0px;
+	max-width: 100%;
+}
+
+#expJumbo h1{
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+#experience{
+	min-height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #2581C4;
+}
+
+#experience img{
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+#jobDescription{
+	margin-bottom: 5px;
+}
+
+.glyphicon-eye-open:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+.modal{
+	color: #000;
+	text-align: center;
+}
+#opinions{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#opinions .thumbnail{
+	background: none;
+	border-style: none;
+}
+
+#opinions img{
+	border-radius: 100%;
+	min-height: 200px;
+	max-height: 250px;
+}
+
+#opinions img:hover{
+	max-height: 265px;
+}
+
+#opinions .caption{
+	color: #fff;
+}
+
+.caption q{
+	margin-top: 50px;
+}
+
+#eduJumbo{
+	background-image: url('./resources/campusSur-jumbo.jpg');
+	background-size: 100% 100%;
+	color: #333;
+	opacity: 0.85;
+	margin-bottom: 0px;
+	max-width: 100%;
+}
+#eduJumbo h1{
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#education {
+	min-height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #FFA219;
+}
+
+#education h3{
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	color: #000;
+}
+
+#dateUniv{
+	margin-bottom: 5px;
+}
+
+
+/*
+#hireJumbo{
+	background-image: url(./resources/handshake-jumbo.jpg);
+	background-size: 100% 100%;
+	color: #000;
+	opacity: 0.8;
+	margin-bottom: 0px;
+}
+
+#hireJumbo h1{
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+#hire {
+	min-height: 50vh;
+	padding-top: 50px;
+	color: #fff;
+	background-color: #00bcd4;
+	padding-bottom: 70px;
+}
+*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 15px 0;
+}
