@@ -27,18 +27,20 @@ a:hover{
 }
 
 #dataJumbo{
-	background-image: url('./resources/CV-banner.jpg');
+	background-image: url('./resources/resume-banner.jpg');
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
-    top: 0px;
-	color: #fff;
+	color: #333;
+	opacity: 0.85;
 	margin-bottom: 0px;
 	max-width: 100%;
 }
 
 #dataJumbo h1{
-	padding: auto;
-	color: #fff;
+	color: #000;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	background-color: #fff;
 }
 
 #data{
@@ -46,7 +48,7 @@ a:hover{
 	padding-top: 80px;
 	padding-bottom: 50px;
 	color: #fff;
-	background-color: #6F2D91;
+	background-color: #2581C4;
 }
 
 #data ul{
@@ -72,19 +74,19 @@ a:hover{
 }
 
 #expJumbo{
-	background-image: url('./resources/handscomputer-jumbo.jpg');
+	background-image: url('./resources/coding-banner.png');
 	background-size: 100% 100%;
-	top: 0px;
-	color: #000;
+	color: #333;
 	opacity: 0.85;
 	margin-bottom: 0px;
 	max-width: 100%;
 }
 
 #expJumbo h1{
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+	font-size: 48px; 
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	background-color: #fff;
 }
 
 #experience{
@@ -161,7 +163,7 @@ a:hover{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #fff;
-	background-color: #FFA219;
+	background-color: #2581C4;
 }
 
 #education h3{
