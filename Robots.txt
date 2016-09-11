@@ -1,0 +1,2 @@
+User-agent: googlebot
+Sitemap: http://renatopintolopez.es/sitemap.xml
