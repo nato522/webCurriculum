@@ -4,18 +4,100 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/fireworks.css">
+    <!-- <link rel="stylesheet" href="css/fireworks.css"> -->
     <link rel="stylesheet" href="css/animation.css">
     <title>Boricua is coming</title>
   </head>
   <body>
-    <audio autoplay="true"><source src="audio/celebration.mp3" type="audio/mpeg" /></audio>
-    <div class="main-countdown pyro">
-      <div class="before"></div>
-      <p id="countdown"></p>
-      <img class="tremblingMeme" src="images/cant_wait_graduated.png" alt="nervious face" title="can't wait Ψ(￣∀￣)Ψ">
-      <div class="after"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <iframe class="col-md-3 col-sm-12 col-xs-12" src="https://embed.spotify.com/?uri=spotify%3Auser%3Anato522%3Aplaylist%3A6dWfDe7MFKCQV1SGvuAWub" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <div class="main col-md-9 col-sm-12 col-xs-12">
+          <h1>WELCOME BACK BORICUA!!!!</h1>
+          <p>¡¡Por fin!! He quitado la música de serie y he metido en su lugar una playlist de canciones que DEBES conocer si vas a vivir en España. Puedes odiarlas o puedes quererlas, mientras las conozcas nos vale jajaja</p>
+          <p>Has llegado <span class="rainbow">en las fechas clave</span> para ver fiesta y conciertos a diario por la calles, y en breves comienzan fiestas de barrio y pueblos así que es una lista tremendamente importante.</p>
+          <img class="tremblingMeme" src="images/torera.png" alt="joy face" title="You are here!! Ψ(￣∀￣)Ψ">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Además, necesitas aprovechar el tiempo en verano para visitar sitios y bares. En Madrid te voy poniendo una lista:</p>
+          <ul class="col-md-3 col-sm-6 col-xs-6">
+            <li>
+              <input type="checkbox" id="boricuaItem1" name="boricuaItem1" value="true" onclick="checkList(this)"> Bar Vader
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem2" name="boricuaItem2" value="true" onclick="checkList(this)"> El bar con playa
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem3" name="boricuaItem3" value="true" onclick="checkList(this)"> Terraza del The Hat
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem4" name="boricuaItem4" value="true" onclick="checkList(this)"> Parque de atracciones
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem5" name="boricuaItem5" value="true" onclick="checkList(this)"> Parque Warner
+            </li>
+          </ul>
+          <ul class="col-md-3 col-sm-6 col-xs-6">
+            <li>
+              <input type="checkbox" id="boricuaItem6" name="boricuaItem6" value="true" onclick="checkList(this)"> Mi piso
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem7" name="boricuaItem7" value="true" onclick="checkList(this)"> Bar rockero en el sótano de una casa
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem8" name="boricuaItem8" value="true" onclick="checkList(this)"> Chocolatería San Ginés
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem9" name="boricuaItem9" value="true" onclick="checkList(this)"> Terraza en Tirso
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem10" name="boricuaItem10" value="true" onclick="checkList(this)"> Terraza del paracaidista
+            </li>
+          </ul>
+          <ul class="col-md-3 col-sm-6 col-xs-6">
+            <li>
+              <input type="checkbox" id="boricuaItem11" name="boricuaItem11" value="true" onclick="checkList(this)"> Desayuno en el museo
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem12" name="boricuaItem12" value="true" onclick="checkList(this)"> Doña Tecla
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem13" name="boricuaItem13" value="true" onclick="checkList(this)"> La Tita Rivera
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem14" name="boricuaItem14" value="true" onclick="checkList(this)"> El patio del fisgón
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem15" name="boricuaItem15" value="true" onclick="checkList(this)"> The Mint
+            </li>
+          </ul>
+          <ul class="col-md-3 col-sm-6 col-xs-6">
+            <li>
+              <input type="checkbox" id="boricuaItem16" name="boricuaItem16" value="true" onclick="checkList(this)"> TODOS los Goikos
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem17" name="boricuaItem17" value="true" onclick="checkList(this)"> La Coquette (bar de blues)
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem18" name="boricuaItem18" value="true" onclick="checkList(this)"> La Paca
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem19" name="boricuaItem19" value="true" onclick="checkList(this)"> La Fontana de Oro
+            </li>
+            <li>
+              <input type="checkbox" id="boricuaItem20" name="boricuaItem20" value="true" onclick="checkList(this)"> La hamburguesería que me dijiste
+            </li>
+          </ul>
+          <p>Ya iremos añadiendo cosas ^^</p>
+        </div>
+      </div>
     </div>
     <script type="text/javascript" src="js/app.js">
     </script>
